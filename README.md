@@ -1,5 +1,1 @@
-# my-microservice-project
-Це репозиторій для навчального проєкту в межах курсу "DevOps CI/CD".  
-
-## Мета  
-Навчитися основам роботи з Git і GitHub.  
+# Add Dockerized Django project with PostgreSQL and Nginx
