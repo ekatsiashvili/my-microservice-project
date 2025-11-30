@@ -101,7 +101,7 @@ spec:
               
               git add values.yaml
               git commit -m "Update image tag to $IMAGE_TAG"
-              git push origin django-app
+              git push origin final_project
             """
           }
         }
