@@ -1,0 +1,14 @@
+image:
+  repository: 146115342990.dkr.ecr.us-east-1.amazonaws.com/goit-ecr
+  tag: 2
+  pullPolicy: IfNotPresent
+
+service:
+  # type: ClusterIP
+  type: LoadBalancer
+  port: 8000
+
+ingress:
+  enabled: false
+  pullSecrets:
+    - name: aws-ecr-creds
