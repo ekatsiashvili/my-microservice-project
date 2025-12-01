@@ -91,7 +91,7 @@ spec:
 
               echo "https://${env.GIT_USERNAME}:${env.GIT_PAT}@github.com" > ~/.git-credentials
 
-              git clone --single-branch --branch django-app https://${env.GIT_USERNAME}:${env.GIT_PAT}@github.com/ekatsiashvili/my-microservice-project.git
+              git clone --single-branch --branch final_project https://${env.GIT_USERNAME}:${env.GIT_PAT}@github.com/ekatsiashvili/my-microservice-project.git
               cd my-microservice-project/charts/django-app
               sed -i "s|tag: .*|tag: $IMAGE_TAG|" values.yaml
               grep -q 'pullSecrets:' values.yaml || echo -e "  pullSecrets:\\n    - name: aws-ecr-creds" >> values.yaml
