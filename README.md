@@ -220,7 +220,7 @@ terraform destroy
 terraform output
 ```
 
-  <img src="demo_screenshots/terraform_1.webp" width="600"/>
+  <img src="screenshots/terraform_1.jpg" width="600"/>
 </details>
 
 <details>
@@ -231,8 +231,8 @@ kubectl get svc -n default
 kubectl port-forward svc/microservice-app-django 8000:8000
 ```
 
-  <img src="demo_screenshots/django_1.webp" width="600"/>
-  <img src="demo_screenshots/django_2.webp" width="600"/>
+  <img src="screenshots/django_1.jpg" width="600"/>
+  <img src="screenshots/django_2.jpg" width="600"/>
 </details>
 
 <details>
@@ -242,8 +242,8 @@ kubectl port-forward svc/microservice-app-django 8000:8000
 kubectl get all -n jenkins
 ```
 
-  <img src="demo_screenshots/jenkins_1.webp" width="600"/>
-  <img src="demo_screenshots/jenkins_2.webp" width="600"/>
+  <img src="screenshots/jenkins_1.jpg" width="600"/>
+  <img src="screenshots/jenkins_2.jpg" width="600"/>
 </details>
 
 <details>
@@ -253,8 +253,8 @@ kubectl get all -n jenkins
 kubectl get all -n argocd
 ```
 
-  <img src="demo_screenshots/argocd_1.webp" width="600"/>
-  <img src="demo_screenshots/argocd_2.webp" width="600"/>
+  <img src="screenshots/argocd_1.jpg" width="600"/>
+  <img src="screenshots/argocd_2.jpg" width="600"/>
 </details>
 
 <details>
@@ -264,7 +264,7 @@ kubectl get all -n argocd
 kubectl get all -n monitoring
 ```
 
-  <img src="demo_screenshots/monitoring_1.webp" width="600"/>
-  <img src="demo_screenshots/monitoring_2.webp" width="600"/>
-  <img src="demo_screenshots/monitoring_3.webp" width="600"/>
+  <img src="screenshots/monitoring_1.jpg" width="600"/>
+  <img src="screenshots/monitoring_2.jpg" width="600"/>
+  <img src="screenshots/monitoring_3.jpg" width="600"/>
 </details>
