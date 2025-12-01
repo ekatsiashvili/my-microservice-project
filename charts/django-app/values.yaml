@@ -1,7 +1,7 @@
 image:
   repository: 146115342990.dkr.ecr.us-east-1.amazonaws.com/goit-ecr
   pullPolicy: IfNotPresent
-  tag: "latest"
+  tag: 6
 
 service:
   # type: ClusterIP
